@@ -1,1 +1,9 @@
 logbook/.obsidian/graph.json
+
+# Never commit secrets from instance configs
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*credentials*
